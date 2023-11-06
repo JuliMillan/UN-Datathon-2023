@@ -1,5 +1,6 @@
 # UN-Datathon-2023
 ## Monitoring Land Use in Biodiversity Hotspots Affected by Forest Loss
+![](/sentinel2misiones.png?raw=true "")
 ### Green Analytics
 
 
