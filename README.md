@@ -45,8 +45,15 @@ Both of these bands, along with several more, are available in the Sentinel-2 da
 
 To obtain this data, we launch an Earth Observation Job in the notebook using the BandMathConfig option to calculate the NDVI.
 
+![](/deforestation.gif?raw=true "")
+
+
 #### Land Use
 After assesing areas affected by deforestation, we can move on to analyzing the land use over time. What we intend is to comprehend what has happened to affected or deforested areas and what has been done with that land over the years.
+
+![Imagen Sentinel Misiones](/misiones-sentinel-2-2.png?raw=true "Imagen Real Sentinel-2 Misiones")
+
+![Land cover mask Misiones](/land-use-misiones.png?raw=true "Land cover mask Misiones")
 
 For that, we launch another Earth Observation Job in Sagemaker changing the configuration to LandCoverSegmentationConfig, that will automatically perform a semantic segmentation algorithm on all the images. Semantic segmentation is a deep learning algorithm that associates a label or category with every pixel in an image. It is used to recognize a collection of pixels that form distinct categories. Information about the available configurations can be found  here .
 
